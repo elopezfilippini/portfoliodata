@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: hsl(0, 0%, 100%);
+  --typewriterSpeed: 1s;
+  --typewriterCharacters: 19; 
+  --root-width: 100%; 
+  --root-max-width: 90%; /* Establece el max-width del :root al 100% */
+  
+}
+#root{
+  max-width: 100%;
+  width:100%
+
+}
+.separator{
+  width:0;
+  height:0;
+  border-right: 99vw solid transparent;
+  border-bottom: 5.9vw solid rgb(2,183,175);
+  margin-top: -5.9vw}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  display: grid;
+  place-content: left;
+  text-align: center;
+  background: var(--bg-color);
+  padding:0%;
+  max-width: 100%;
+  scroll-behavior: smooth
+}
+
+h1 {
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  
+  padding: 0%;
+  text-align: left;
+}
+
+
+h2 {
+  font-size: clamp(0.125em, 1.5rem, 20px);
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  
+  padding: 0%;
+  text-align: right;
+}
+
+
+h1::before,
+h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+h1::after { 
+  width: 0.125em;
+  background: rgb(41, 39, 39);
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+.subtitle {
+  color:  rgb(2,183,175);
+  
+  font-weight: 800;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
