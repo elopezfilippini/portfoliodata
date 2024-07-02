@@ -4,7 +4,7 @@ import Retail from "../assets/videos/RetailSales.jpg"
 import Titanic from "../assets/videos/TitanicClasification.jpg"
 import WebScrapping from "../assets/videos/WebScrapping.jpg"
 import Breast from "../assets/videos/BreastCancerPrediction.jpg"
-import energy from "../assets/videos/energy2.jpg"
+import energy from "../assets/videos/Energy2.jpg"
 import bellabeat from "../assets/videos/bellabeat.jpg"
 import sales from "../assets/videos/sales.jpg"
 import { FiChevronsDown } from "react-icons/fi";
