@@ -22,7 +22,7 @@ import glue from "../assets/Icons/glue.png";
 import redshift from "../assets/Icons/redshift.png";
 import scikit from "../assets/Icons/Scikitlearn.png";
 import selenium from "../assets/Icons/Selenium.png";
-import pandas from "../assets/Icons/pandas.png";
+import pandas from "../assets/Icons/Pandas.png";
 import tensor from "../assets/Icons/tensorFlow.png";
 import numpy from "../assets/Icons/Numpy.png";
 import matplot from "../assets/Icons/matplot.png";
