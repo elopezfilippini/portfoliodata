@@ -2,9 +2,7 @@ import { useState } from 'react';
 import { FiChevronsDown } from "react-icons/fi";
 import './App.css';
 import Prueba from './components/Prueba';
-import Projects from './components/Skills';
 import Nav from './components/Nav';
-import video from "./assets/videos/video.mp4";
 import Aboutme from './components/Aboutme';
 import Skills from './components/Skills';
 import {Contact} from './components/Contact';
@@ -33,7 +31,7 @@ function App() {
         <div className='inline-block items-center'>
           <img className='animate-flip-up animate-delay-[3500ms] animate-ease-in-out h-14 ' src={brain}></img>
           <h1>Hi, i´m Emiliano.</h1>
-          <h2 className="subtitle">Fullstack developer</h2>
+          <h2 className="subtitle">Data Scientist / Analyst</h2>
           <div className='h-[100px]'></div>
         </div>
         <div className='animate-shake animate-once animate-delay-[3500ms] animate-ease-linear flex text-center justify-center text-2xl mr-4'>

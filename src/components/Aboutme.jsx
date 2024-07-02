@@ -21,6 +21,7 @@ a. Python and its main libraries: Numpy, Pandas, Matplotlib, Seaborn, Scikit-Lea
 <p className='text-left px-5 text-white font-normal'>🗃️ Database: SQL.</p>
 <p className='text-left px-5 text-white font-normal'>📊 Visualization: Tableau and Power Bi.</p>
 <p className='text-left px-5 text-white font-normal'>💻 Machine Learning: Supervised and unsupervised learning models.</p>
+<p className='text-left px-5 text-white font-normal'>💻 Deep Learning: Neural Networks with TensorFlow.</p>
 <p className='text-left px-5 text-white font-normal'>🧮 Statistics: Multivariable analysis methods, descriptive statistics.</p>
 <p className='text-left px-5 text-white font-normal'>🚧 GIT.</p>
 
