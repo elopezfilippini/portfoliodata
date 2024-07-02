@@ -19,7 +19,7 @@ function Nav() {
 <img className='h-10 w-10 ' src={github}></img></a>
 <a href="https://www.linkedin.com/in/emilianolopezfilippini/">
 <img className='h-10 w-10 'src={linkedin}></img></a>
-<a href="https://drive.google.com/file/d/1CWT48iN05810tCMmnr0feb_iGlhyR1n9/view?usp=drive_link">
+<a href="https://drive.google.com/file/d/1TbSO0kXgVSSkceUokqau0griDiXWJsWR/view?usp=drive_link">
 <img className='h-10 w-10 'src={cv}></img></a>
     </div>
   )
