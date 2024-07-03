@@ -37,7 +37,7 @@ a. Python and its main libraries: Numpy, Pandas, Matplotlib, Seaborn, Scikit-Lea
             
             
             
-            </h3> <a href="https://drive.google.com/file/d/1CWT48iN05810tCMmnr0feb_iGlhyR1n9/view">
+            </h3> <a href="https://drive.google.com/file/d/1TbSO0kXgVSSkceUokqau0griDiXWJsWR/view?usp=drive_link">
               <button className='text-2xl font-bold mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out'>Resume</button></a></div></div>
   )
 }
