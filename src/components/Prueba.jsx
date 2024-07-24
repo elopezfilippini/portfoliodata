@@ -7,6 +7,7 @@ import Breast from "../assets/videos/BreastCancerPrediction.jpg"
 import energy from "../assets/videos/Energy2.jpg"
 import bellabeat from "../assets/videos/Bellabeat.jpg"
 import sales from "../assets/videos/Sales.jpg"
+import pre from "../assets/videos/previajejpg.webp"
 import { FiChevronsDown } from "react-icons/fi";
 function Prueba() {
   function scrollToSection(event, sectionId) {
@@ -235,7 +236,7 @@ function Prueba() {
       <div className="flex
       ">
          <a href="https://public.tableau.com/app/profile/emiliano.filippini/viz/BellabeatCase-GoogleDataAnalyticsCapstone/Presentacion">
-        <h4  className='hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out border-orange-400 mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border '>Code</h4></a>
+        <h4  className='hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out border-orange-400 mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border '>View</h4></a>
      
       </div>
       
@@ -269,7 +270,39 @@ function Prueba() {
       <div className="flex
       ">
          <a href="https://public.tableau.com/app/profile/emiliano.filippini/viz/Sales_17144293251900/Cliente">
-        <h4  className='hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out border-orange-400 mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border '>Code</h4></a>
+        <h4  className='hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out border-orange-400 mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border '>View</h4></a>
+     
+      </div>
+      
+  </div>
+  
+</div>
+
+<div className='h-min-[700px] flex flex-col '>
+  <div className='min-h-[560px]  h-min-[700px] flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center justify-center'>
+    <h3 className='text-center pb-6 py-4 text-2xl font-bold	text-zinc-200	'>Pre viaje SQL Analysis</h3>
+    <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
+    <img className="opacity-100 rounded-md" src={pre} />
+    </div>
+      <h3 className='py-6 text-white text-xs'>Data analysis project made with MySQL. It analyzes the impact of a government subsidy for tourism in Argentina.
+ 
+      </h3>
+      <br></br>
+      <br></br>
+      <br></br>
+     
+      <h3 className='italic'></h3>
+      <div className="flex pt-6
+      ">
+        <h4 className='text-xs border border-grey-400 mx-auto my-4 bg-slate-100 rounded-lg p-2'>Mysql</h4>
+
+        
+        
+      </div>
+      <div className="flex
+      ">
+         <a href="https://drive.google.com/file/d/11IDey7pnax5PXCtRGNYj4nRHVks13TMR/view?usp=sharing">
+        <h4  className='hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out border-orange-400 mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border '>View</h4></a>
      
       </div>
       
