@@ -301,7 +301,7 @@ function Prueba() {
       </div>
       <div className="flex
       ">
-         <a href="https://drive.google.com/file/d/11IDey7pnax5PXCtRGNYj4nRHVks13TMR/view?usp=sharing">
+         <a href="https://drive.google.com/file/d/1uW0VL2SDzutR-MnNFK0h1X_H_aQ9nzWG/view?usp=drive_link">
         <h4  className='hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out border-orange-400 mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border '>View</h4></a>
      
       </div>
