@@ -8,6 +8,7 @@ import energy from "../assets/videos/Energy2.jpg"
 import bellabeat from "../assets/videos/Bellabeat.jpg"
 import sales from "../assets/videos/Sales.jpg"
 import pre from "../assets/videos/previajejpg.webp"
+import brair from "../assets/videos/0823.mp4"
 import { FiChevronsDown } from "react-icons/fi";
 function Prueba() {
   function scrollToSection(event, sectionId) {
@@ -21,11 +22,57 @@ function Prueba() {
     }
   }
   return (
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     <div class='w-full  '>
             <h3 className='text-center bg-custom pb-10 text-4xl font-bold	text-white'>My Projects</h3>
             <div class="bg-custom w-full text-center flex flex-wrap justify-center gap-4 pb-1 0  ">
            
+            <div className='flex flex-col '>
+  <div className='min-h-[560px]  flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
+    <h3 className='text-center pb-6 py-4  text-2xl font-bold	text-zinc-200	'>British Airway Analysis</h3>
+    <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
+    <video className="opacity-100 rounded-md" src={brair} autoPlay loop muted />
+    </div>
+      <h3 className='py-8 text-white text-xs'>
+      Data analysis regarding the evaluation of British Airways services by their travelers. You can filter the data by parameter, month and and service.
+      Also it´s possible to view the general calification of the company. </h3>
+      
+      <div className="flex pt-20">
+        
+        <h4 className='text-xs  border border-grey-400 mx-auto my-4 bg-slate-100 rounded-lg p-2'>Tableau</h4>
+        <h4 className='text-xs border border-grey-400 mx-auto my-4 bg-slate-100 rounded-lg p-2'>Data Analysis</h4>
+     
 
+      </div>
+      <div className="flex
+      ">
+     <a href="https://public.tableau.com/app/profile/emiliano.filippini/viz/BritishAirwaysReview_17241084509060/Dashboard1">
+        <h4  className='hover:animate-wiggle hover:bg-pink-500 transition-colors duration-300 ease-in-out border-orange-400 mx-auto my-4 bg-slate-900 rounded-lg p-2 text-white border '>Code</h4></a>
+       
+      </div>
+  </div>
+</div>
 
 
             <div className='   flex flex-col   '>
